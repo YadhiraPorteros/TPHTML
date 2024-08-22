@@ -1,0 +1,152 @@
+ <!DOCTYPE Version 1.0.0>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Trabajo Practico de HTML</h1>
+    </header>
+<!--1 Ejercicio-->
+    <section>
+        <h2 id="1">1. Estructura Básica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaracion de DOCTYPE,etiqueta de metadatos y un titulo.</p>
+    </section>
+
+<!--2 Ejercicio-->
+    <section>
+        <h2 id="2">2.Encabezados y Propiedades del texto</h1>
+            <h3>Encabezado en h3</h3>
+            <h4>Encabezado h4</h4>
+            <h5>Encabezado h5</h5>
+            <h6>Encabezado h6</h6>
+            <p><b>Texto en negrita.</b></p>
+            <p><em>Texto en cursiva.</em></p>
+            <p><u>Texto subrayado.</u></p>
+    </section>
+   
+<!--3 Ejercicio-->
+    <section> 
+        <h2 id="3">3.Divisiones y Agrupación de Contenido</h1>
+        <div>
+            <h2>Seccion 1</h2>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </div>
+        <div>
+            <h2>Seccion 2</h2>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+         </div>
+    </section>
+    
+
+<!--4 Ejercicio-->
+    <section>
+        <h2 id="4">4. Enlaces y Listas</h1>
+            <nav>
+                <p>Visita nuestro <a href="https://www.google.com" target="_blank"> sitio web</a> para mas información.</p>
+            </nav>
+        <p>Enlaces internos:</p>
+        <nav>
+            <ul>
+                <li><a href="#1">Estructura Básica</a></li>
+                <li><a href="#2">Encabezados y Propiedades</a></li>
+                <li><a href="#5">Multimedia</a></li>
+            </ul>
+        </nav>
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Primer ítem de una lista desordenada</li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul>
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Primer ítem de una lista ordenada</li>
+            <li>Segundo ítem de una lista ordenada</li>
+        </ol>
+    </section>
+     
+<!--5 Ejercicio-->
+    <section>
+        <h2 id="5">5. Elementos Multimedia</h1>
+            <div>
+               <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls />
+            </div>
+            <div>         
+               <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="200px" height="200px" />
+            </div>
+            <div>
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="Logo de React" width="200px" height="200px" />
+            </div>
+    </section>
+
+<!--6 Ejercicio-->
+    <section>
+        <h2 id="6">6. Tablas</h1>
+        <style>
+           table{ width: 25%;
+                  border-collapse: collapse; 
+               }
+               td,th {
+                   border: 1px solid black;
+                   padding: 8px;
+                   text-align: center;
+               }
+        </style>
+           <table>
+               <thead>
+                   <tr>
+                       <th>Columna 1</th>
+                       <th>Columna 2</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Dato 1</td>
+                       <td>Dato 2</td>
+                   </tr>
+                   <tr>
+                       <td>Dato 3</td>
+                       <td>Dato 4</td>
+                   </tr>
+               </tbody>
+               <tfoot>
+                   <tr>
+                       <td>Dato 5</td>
+                       <td>Dato 6</td>
+                   </tr>
+               </tfoot>
+           </table>
+        </section>
+
+<!--7 Ejercicio-->
+        <section>
+            <h2 id="7">7. Formularios</h1>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingrese su Nombre" />
+                    <label>Email:</label>
+                    <input type="email" placeholder="jose123@gmail.com" />
+                    <label>Mensaje:</label>
+                    <textarea placeholder="Escriba un mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+<!--8 Ejercicio-->
+        <section>  
+            <footer>
+                <p>Fin de pagina</p>
+            </footer>
+            <style>
+            header, footer{
+                background-color: gray;
+                color: white;
+                text-align: center;
+                padding: 10px;
+
+            }
+            </style>
+        </section>     
+</body>
+</html>
